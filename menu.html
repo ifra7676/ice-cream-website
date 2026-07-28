@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naturals ice cream Fine parlour</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Segoe UI", sans-serif;
+        line-height: 1.6;
+        background-color: #fff;
+        color: #333;
+      }
+      header {
+        background: #111;
+        color: #fff;
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+      }
+      header h1 {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+      }
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        transition: background 0.3s ease;
+      }
+      nav ul li a:hover {
+        background: #e0a80d;
+        border-radius: 5px;
+      }
+      .hero-menu {
+        width: 100%;
+        height: 60vh;
+        background-image:url("C:/Users/malna/Pictures/ice.avif");
+        background-size:cover;
+        background-position:center;
+        background-repeat:no-repeat;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .hero-text {
+        color: #fff;
+      }
+      .hero-text h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+      }
+      .hero-text p {
+        font-size: 1.1rem;
+      }
+      .menu-section {
+        padding: 4rem 5%;
+        background: #fafafa;
+      }
+      .menu-section h2 {
+        font-size: 2rem;
+        color: #111;
+        margin-bottom: 1rem;
+        border-left: 5px solid #e4b95b;
+        padding-left: 0.75rem;
+        font-weight: 700;
+      }
+      .menu-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+        margin-bottom: 3.5rem;
+      }
+      .menu-card {
+        background: #fff;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .menu-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+      }
+      .menu-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      .menu-info {
+        padding: 1rem 1.2rem;
+      }
+      .menu-info h3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+      .menu-info span {
+        color: #e4b95b;
+        font-weight: bold;
+        font-size: 1rem;
+      }
+      .menu-info p {
+        font-size: 0.95rem;
+        color: #555;
+      }
+      footer {
+        background: #111;
+        color: #ddd;
+        text-align: center;
+        padding: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Naturals ice-cream</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero hero-menu">
+      <div class="hero-text">
+        <h1>Our Exquisite Menu</h1>
+        <p>Crafted with passion, served with love.</p>
+      </div>
+    </section>
+    <section class="menu-section">
+      <h2>scoops</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <img src="C:/Users/malna/Pictures/Chocolate orange.jpg" alt="chocolate orange" 
+          />
+          <div class="menu-info">
+            <h3>chocolate orange <span>₹100</span></h3>
+            <p>chocolate orange is made with fresh fruits.</p>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img src="C:/Users/malna/Pictures/hazinut.jpg" alt="hazeinut" />
+          <div class="menu-info">
+            <h3>hazeinut dark chocolate<span>₹100</span></h3>
+            <p>real coco with hazalnut.</p>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img src="C:/Users/malna/Pictures/Choc-chip-ice-cream-hero-12.jpg" alt="choco chips" />
+          <div class="menu-info">
+            <h3>choco chips <span>₹80</span></h3>
+            <p>real flavor with choco chips.</p>
+          </div>
+        </div>
+      </div>
+      <h2>brownie special</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <img src="C:/Users/malna/Pictures/Sizzling-Brownie-Web_8380.jpg" alt="brownie special" />
+          <div class="menu-info">
+            <h3>hot brownie with hot fudge <span>₹150</span></h3>
+            <p>Classic flavor of brownie with hot fudge.</p>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img src="C:/Users/malna/Pictures/281122_7-scaled.jpg" alt="hot fudge" />
+          <div class="menu-info">
+            <h3>hot brownie with hotfudge and nutella<span>₹210</span></h3>
+            <p>brownie with pure nutella.</p>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img src="C:/Users/malna/Pictures/triple-chocolate-brownies-3.webp" alt="vanilla" />
+          <div class="menu-info">
+            <h3>hot brownie with vanilla ice cream <span>₹200</span></h3>
+            <p>brownie with natrualvanilla flavor.</p>
+          </div>
+        </div>
+      </div>
+      <h2>ice cream cone</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+<img src="C:/Users/malna/Pictures/pink-background-with-strawberry-top-cone_867452-5508.jpg" alt="m cone"/>
+          <div class="menu-info">
+            <h3>Cone strawberry<span>₹180</span></h3>
+            <p>cone with natrual strawberry.</p>
+          </div>
+        </div>
+        <div class="menu-card">
+          <img src="C:/Users/malna/Pictures/homemade-coffee-ice-cream-recipe-2.jpg" alt="Cone with cappuccino" />
+          <div class="menu-info">
+            <h3>Cappuccino cone ice cream <span>₹200</span></h3>
+            <p>Classic cappuccino flavor ice cream.</p>
+          </div>
+        </div>
+        <div class="menu-card">
+<img src="C:/Users/malna/Pictures/stunning-view-butterscotch-ice-cream-cone_853451-1358.avif" alt="butter scotch"/>
+          <div class="menu-info">
+            <h3>butter scotch <span>₹120</span></h3>
+            <p>real chocolate with butter scotch</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2026 Naturals ice-cream. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

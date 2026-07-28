@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>natruals ice-cream – Fine parlour</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Segoe UI", sans-serif;
+        line-height: 1.6;
+        background-color: #fff;
+        color: #333;
+      }
+      header {
+        background: #111;
+        color: #fff;
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+      }
+      header h1 {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+      }
+      nav ul {
+        display: flex;
+        list-style: none;
+      }
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        transition: background 0.3s ease;
+      }
+      nav ul li a:hover {
+        background: #e0a80d;
+        border-radius: 5px;
+      }
+      .hero {
+        background: url("C:/Users/malna/Pictures/ice.jpg")
+          no-repeat center/cover;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+        padding: 0 1rem;
+      }
+      .hero h2 {
+        font-size: 3rem;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+      }
+      .hero p {
+        max-width: 600px;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+      }
+      .section {
+        padding: 4rem 2rem;
+        max-width: 1200px;
+        margin: auto;
+      }
+      .section h3 {
+        text-align: center;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        color: #e0a80d;
+      }
+      .menu-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+      }
+      .menu-item {
+        border: 1px solid #eee;
+        padding: 1rem;
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+      }
+      .menu-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+      .menu-item img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 0.5rem;
+      }
+      .about {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 2rem;
+      }
+      .about img {
+        width: 100%;
+        max-width: 500px;
+        border-radius: 10px;
+      }
+      .about-text {
+        flex: 1;
+      }
+      .contact-info {
+        text-align: center;
+        font-size: 1.1rem;
+        line-height: 2;
+      }
+      footer {
+        background: #111;
+        color: #ddd;
+        text-align: center;
+        padding: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Naturals ice-cream</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <h2>experience Fine ice cream</h2>
+      <p>
+        Discover the authentic flavors of ice cream, crafted with love and the
+        finest ingredients in a warm and elegant atmosphere.
+      </p>
+    </section>
+    <section class="section">
+      <h3>Chef's Specials</h3>
+      <div class="menu-grid">
+        <div class="menu-item">      
+  <img src="C:\Users\malna\Pictures\original-5d847164db667e8efad300686e98285e.webp" alt="ice ceam" width="300" height="300">
+
+          <h4>strawberry vanilla ice cream</h4>
+          <p>
+            Freshly made strawberry vanilla ice cream with fruity and slightly tangy flavor strawberry.
+          </p>
+        </div>
+        <div class="menu-item">
+          <img src="C:\Users\malna\Pictures\28558ebb82acbc829167cfc6932cc7ea.png" alt="vanilla chocolate">
+
+          <h4>vanilla chocolate</h4>
+          <p>
+            Classic vanilla chocolate with natrual flavor of coco.
+          </p>
+        </div>
+        <div class="menu-item">
+          <img
+            src="C:/Users/malna/Pictures/maxresdefault.jpg" alt="titanic">
+
+          <h4>titanic</h4>
+          <p>On Titanic, American ice cream was served for dessert
+            specialty treats, frappuccinos, malts, milkshakes, and customizable cones and cups next to the Titanic.  
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section about">
+      <img
+        src="C:\Users\malna\Pictures\ice-cream-parlor-interior.webp"
+        alt="ice cream parlour Interior"
+      />
+      <div class="about-text">
+        <h3>Our Story</h3>
+        <p>
+          Naturals ice cream is indian parlour chain famous for making handcrafted ice cream using only real fruits,dry fruits,
+          milk and sugar-with absolutely no artificial flavors or preservatives.
+
+        </p>
+      </div>
+    </section>
+    <section class="section contact-info">
+      <h3>Visit Us</h3>
+      <p>23 Foodie Street, Flavor Town, India</p>
+      <p>Open Daily: 11:00 AM – 11:00 PM</p>
+      <p>Call for Reservations: 9876543210</p>
+    </section>
+    <footer>
+      <p>&copy; 2026  Naturals ice cream. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
